@@ -13,7 +13,7 @@ public class User {
 
     //@Id annotation specifies that the corresponding attribute is a primary key
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     //@Column annotation specifies that the attribute will be mapped to the column in the database.
     //Here the column name is explicitly mentioned as 'id'
     @Column(name = "id")
