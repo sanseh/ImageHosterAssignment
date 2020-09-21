@@ -15,7 +15,7 @@ public class Tag {
     //@Column annotation specifies that the attribute will be mapped to the column in the database.
     //Here the column name is explicitly mentioned as 'id'
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
     @Column
